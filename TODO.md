@@ -8,3 +8,5 @@
   won't be prepended with ' :', thus resulting in multiple arguments.
   It would either break the delivery completely or just deliver the first
   argument up to space, I didn't check.
+* Reuse the HTML2Text? Is it safe?
+* Remove emphasis, not much needed I suppose.
