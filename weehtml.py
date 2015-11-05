@@ -39,7 +39,7 @@ except ImportError as error:
         print('This script must be run under WeeChat.')
         print('Get WeeChat at http://www.weechat.org.')
     else:
-        weechat.prnt('', '{0}: {1}'.format([SCRIPT_NAME, error]))
+        weechat.prnt('', '{0}: {1}'.format(SCRIPT_NAME, error))
 
 
 def cb_irc_in_privmsg(data, signal, server, irc_cmd):
